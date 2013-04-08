@@ -1,0 +1,28 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: YrACT3XlDgrnt0RdP/DN6Ycc5QA=
+
+Name: utils/update_storagelist.sh
+SHA1-Digest: ABUncyrvSL9AqEj53/HeB2bF8b4=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: aTvUYk+k6CFnGHB1dehGVfAx5ig=
+
+Name: utils/check_emmc.sh
+SHA1-Digest: cgkeHaAHwFW6tS1nObbisK7IpJQ=
+
+Name: utils/zipalign
+SHA1-Digest: YRFCPHOgEMBszynrPnR+hwSqIs0=
+
+Name: utils/update_vold.sh
+SHA1-Digest: 7rwpR0BTqK4Nzr7zXO+flY5JV4g=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: kgYU/5V/aazbItetPA9wAam7LSY=
+
+Name: mods/storage/framework-res.apk/res/xml/storage_list.xml
+SHA1-Digest: anEX4D3Hs7cxeAb9/QaFyflNwEQ=
+
+Name: utils/zip
+SHA1-Digest: a6Xmx1kSF1IOaWA95qOKwSXpeMY=
+

@@ -1,0 +1,23 @@
+show_progress(0.950000, 50);
+ui_print("------------------------------------");
+ui_print("   flash kernel boot img and modules");
+ui_print("------------------------------------");
+
+mount("ext4", "EMMC", "/dev/block/mmcblk0p3", "/system");
+mount("ext4", "EMMC", "/dev/block/mmcblk0p5", "/data");
+
+show_progress(0.200000, 0);
+show_progress(0.200000, 10);
+
+package_extract_file("boot.img", "/dev/bootimg");
+
+# AED uses restricted functions so we removed it to prevent from possibly conflicts and panics
+delete("/system/lib/modules/aed.ko"); 
+
+package_extract_dir("system/lib/modules", "/system/lib/modules");
+
+show_progress(0.100000, 0);
+
+unmount("/data");
+unmount("/system");
+ui_print("Installation complete!");

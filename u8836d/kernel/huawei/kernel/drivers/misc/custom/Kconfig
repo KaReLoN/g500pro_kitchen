@@ -1,0 +1,14 @@
+
+config DEBUG_STUB
+	bool "Stubs of kernel debug functions"
+	default n
+	---help---
+	 Stubs of debug functions that may be used when linking non-debugging.
+	 kernel with prebuilt proprietary modules compiled with enabled debugging.
+
+config FMEM
+	tristate "FMEM Module"
+	default n
+	---help---
+	 This is an analog of /dev/mem but has no limitations.
+	 
